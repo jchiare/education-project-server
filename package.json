@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "backpack",
+    "build": "backpack build"
+  },
+  "keywords": [],
+  "author": "Jay Chiarella",
+  "license": "ISC",
+  "dependencies": {
+    "backpack-core": "^0.8.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "firebase-admin": "^7.0.0",
+    "moment": "^2.24.0",
+    "stripe": "^6.25.0"
+  }
+}

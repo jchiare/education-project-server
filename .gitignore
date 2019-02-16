@@ -1,0 +1,13 @@
+# environment
+.env
+
+#misc.
+.DS_STORES
+
+/node_modules
+
+#build
+/build
+
+#firebase credentials
+/src/firebase.json
