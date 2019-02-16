@@ -7,8 +7,7 @@ pizza_route.post("*", async (req, res) => {
     const response = await AddPizzaData(req.body.values);
     res.status(201).json(response);
   } catch (err) {
-    console.log(err);
-    res.status(500).send("hello");
+    res.status(500).json({ error: err });
   }
 });
 

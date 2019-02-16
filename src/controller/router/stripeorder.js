@@ -16,7 +16,6 @@ stripe_route.post("*", async (req, res) => {
     });
     res.status(201).json(response);
   } catch (err) {
-    //console.log(err);
     let message;
     switch (err.type) {
       case "StripeCardError":
